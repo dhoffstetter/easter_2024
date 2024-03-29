@@ -101,6 +101,13 @@ $(document).ready(function() {
             attempted: false // Flag to track if the question has been attempted
         },
         {
+            text: "While building the communications device, the San Jose contingent needed to call Laguna Beach to reach what correspondent?",
+            options: ["James T. Kirk", "Rocket", "Groot", "Garth", "A dood on a skateboard with free tickets to see Journey"],
+            answer: 1,
+            image: "images/comdevice.jpg",
+            attempted: false // Flag to track if the question has been attempted
+        },
+        {
             text: "What is notable about this year's Easter cop-out?",
             options: ["Mom and Dad actually collaborated on the same github repository for the first time"],
             answer: 0,
