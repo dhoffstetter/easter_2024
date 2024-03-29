@@ -1,0 +1,31 @@
+#game-container {
+    width: 50%;
+    margin: auto;
+    text-align: center;
+}
+
+#question-image img {
+    max-width: 100%;
+    height: auto;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    margin: 10px 0;
+}
+
+button {
+    margin-top: 20px;
+}
+
+.wrong-answer {
+    color: red;
+}
+
+.right-answer {
+    color: green;
+}

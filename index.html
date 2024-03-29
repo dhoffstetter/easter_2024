@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Easter Memory Lane</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+</head>
+<body>
+
+<div id="game-container">
+    <h1>Easter Memory Lane</h1>
+    <div id="question-image">
+        <!-- Optional image for the question will be loaded here -->
+    </div>
+    <div id="question-text"></div>
+    <ul id="answers-list"></ul>
+    <button id="next-question" disabled>Next Question</button>
+    <div id="score"></div>
+    <button onclick="window.location.href='final.html';" id="final" hidden>Click here to get your prize.</button>
+</div>
+
+<audio id="victory-sound" src="victory.mp3"></audio>
+<audio id="correct-sound" src="ding.mp3"></audio>
+<audio id="incorrect-sound" src="horn.mp3"></audio>
+
+<script src="script.js"></script>
+</body>
+</html>
