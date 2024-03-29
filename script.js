@@ -9,63 +9,63 @@ $(document).ready(function() {
             image: "images/rhino.jpg",
             attempted: false // Flag to track if the question has been attempted
         },
-        // {
-        //     text: "What is this creature?",
-        //     options: ["Satan", "Droid", "Just a Peep", "Squishy", "Something from Santa Cruz", "Ralph"],
-        //     answer: 1,
-        //     image: "images/peep.jpg",
-        //     attempted: false // Flag to track if the question has been attempted
-        // },
-        // {
-        //     text: "What was the original rendezvous point?",
-        //     options: ["Starbucks", "Oga's Cantina", "Mars", "Atic", "Great America", "Star Tours"],
-        //     answer: 5,
-        //     image: "images/c3po.jpg",
-        //     attempted: false // Flag to track if the question has been attempted
-        // },
-        // {
-        //     text: "What does Thanos need?",
-        //     options: ["Hair cut", "Loofah", "To get his ass kicked", "Breath Mints", "Infinity stones", "Kidney Stones"],
-        //     answer: 1,
-        //     image: "images/thanos.jpg",
-        //     attempted: false // Flag to track if the question has been attempted
-        // },
-        // {
-        //     text: "Which board game was used in a puzzle?",
-        //     options: ["Monopoly", "Clue", "Khet", "Scrabble", "CAH", "Telestrations"],
-        //     answer: 3,
-        //     image: "images/cards.jpg",
-        //     attempted: false // Flag to track if the question has been attempted
-        // },
-        // {
-        //     text: "How many times did Mom curse at this?",
-        //     options: ["About as many times as she cursed at Dad.", "What, Mom curse?", "10"],
-        //     answer: 0,
-        //     image: "images/circuit.jpg",
-        //     attempted: false // Flag to track if the question has been attempted
-        // },
-        // {
-        //     text: "How did you get the balloons off of the ceiling?",
-        //     options: ["Waited until they deflated", "Nerf dart gun + Tacks", "Human sacrifice", "Jumped", "Poked them with a stick", "Called the fire department"],
-        //     answer: 1,
-        //     image: "images/balloons.jpg",
-        //     attempted: false // Flag to track if the question has been attempted
-        // },
-        // {
-        //     text: "What was put in the Easter Eggs as filler material?",
-        //     options: ["Air", "Rice", "Confetti", "Glitter", "Rocks", "Bad puns"],
-        //     answer: 5,
-        //     image: "images/egg.jpg",
-        //     attempted: false // Flag to track if the question has been attempted
-        // },
-        // {
-        //     text: "Who is Ralph?",
-        //     options: ["Wonder LLama", "Mega Beaver", "Super Cat", "Emperor Possum", "The Builder", "The Destroyer"],
-        //     answer: 0,
-        //     image: "images/ralph.jpg",
-        //     attempted: false // Flag to track if the question has been attempted
-        // },
-       // Add more questions here, each with an 'attempted' property
+        {
+            text: "What is this creature?",
+            options: ["Satan", "Droid", "Just a Peep", "Squishy", "Something from Santa Cruz", "Ralph"],
+            answer: 1,
+            image: "images/peep.jpg",
+            attempted: false // Flag to track if the question has been attempted
+        },
+        {
+            text: "What was the original rendezvous point?",
+            options: ["Starbucks", "Oga's Cantina", "Mars", "Atic", "Great America", "Star Tours"],
+            answer: 5,
+            image: "images/c3po.jpg",
+            attempted: false // Flag to track if the question has been attempted
+        },
+        {
+            text: "What does Thanos need?",
+            options: ["Hair cut", "Loofah", "To get his ass kicked", "Breath Mints", "Infinity stones", "Kidney Stones"],
+            answer: 1,
+            image: "images/thanos.jpg",
+            attempted: false // Flag to track if the question has been attempted
+        },
+        {
+            text: "Which board game was used in a puzzle?",
+            options: ["Monopoly", "Clue", "Khet", "Scrabble", "CAH", "Telestrations"],
+            answer: 3,
+            image: "images/cards.jpg",
+            attempted: false // Flag to track if the question has been attempted
+        },
+        {
+            text: "How many times did Mom curse at this?",
+            options: ["About as many times as she cursed at Dad.", "What, Mom curse?", "10"],
+            answer: 0,
+            image: "images/circuit.jpg",
+            attempted: false // Flag to track if the question has been attempted
+        },
+        {
+            text: "How did you get the balloons off of the ceiling?",
+            options: ["Waited until they deflated", "Nerf dart gun + Tacks", "Human sacrifice", "Jumped", "Poked them with a stick", "Called the fire department"],
+            answer: 1,
+            image: "images/balloons.jpg",
+            attempted: false // Flag to track if the question has been attempted
+        },
+        {
+            text: "What was put in the Easter Eggs as filler material?",
+            options: ["Air", "Rice", "Confetti", "Glitter", "Rocks", "Bad puns"],
+            answer: 5,
+            image: "images/egg.jpg",
+            attempted: false // Flag to track if the question has been attempted
+        },
+        {
+            text: "Who is Ralph?",
+            options: ["Wonder LLama", "Mega Beaver", "Super Cat", "Emperor Possum", "The Builder", "The Destroyer"],
+            answer: 0,
+            image: "images/ralph.jpg",
+            attempted: false // Flag to track if the question has been attempted
+        },
+       Add more questions here, each with an 'attempted' property
     ];
 
     function displayQuestion() {
