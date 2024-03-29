@@ -100,6 +100,13 @@ $(document).ready(function() {
             image: "images/enterprise.png",
             attempted: false // Flag to track if the question has been attempted
         },
+        {
+            text: "What is notable about this year's Easter cop-out?",
+            options: ["Mom and Dad actually collaborated on the same github repository for the first time"],
+            answer: 0,
+            image: "images/github.png",
+            attempted: false // Flag to track if the question has been attempted
+        },
        //Add more questions here, each with an 'attempted' property
     ];
 
