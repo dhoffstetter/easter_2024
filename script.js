@@ -65,7 +65,42 @@ $(document).ready(function() {
             image: "images/ralph.jpg",
             attempted: false // Flag to track if the question has been attempted
         },
-       Add more questions here, each with an 'attempted' property
+        {
+            text: "When my love swears that she is made of truth,",
+            options: ["I am cursed by her sudden but inevitable betrayal", "I do believe her, though I know she lies", "I am the eggman, goo goo g'joob"],
+            answer: 1,
+            image: "images/shakespeare.png",
+            attempted: false // Flag to track if the question has been attempted
+        },
+        {
+            text: "How did you win the Gatekeeper's favor?",
+            options: ["A skein of Qiviut yarn", "Grande quad decaf Americano", "A vanilla latte", "An antique surfboard inscribed with Frank Sinatra's signature", "Cash"],
+            answer: 2,
+            image: "images/blackknight.png",
+            attempted: false // Flag to track if the question has been attempted
+        },
+        {
+            text: "What song had an embedded Easter message?",
+            options: ["Happy Birthday", "In Front of Me", "You Can't Always Get What You Want", "The Chicken Dance", "Becoming Insane"],
+            answer: 1,
+            image: "images/music.png",
+            attempted: false // Flag to track if the question has been attempted
+        },
+        {
+            text: "The string adventure that led around the house and into the attic originated behind what picture?",
+            options: ["RoboGoat by Andy O'Neal", "Swans Into Elephants by Salvador Dali", "Stepping Out by Roy Lichtenstein", "Master Copy of Stepping Out by Andy O'Neal", "Green Pastures Serigraph by Eyvind Earle"],
+            answer: 3,
+            image: "images/greenpastures.png",
+            attempted: false // Flag to track if the question has been attempted
+        },
+        {
+            text: "After retrieving the Death Star plans from the Oehler's front yard, you encountered:",
+            options: ["Your extraction team piloting Bertha, the rebel transport vehicle", "An imperial tool in a TIE Fighter", "Han Solo in the Millennium Falcon ", "Hoban Washburn in the Serenity", "A dood on a skateboard with free tickets to see Journey"],
+            answer: 0,
+            image: "images/enterprise.png",
+            attempted: false // Flag to track if the question has been attempted
+        },
+       //Add more questions here, each with an 'attempted' property
     ];
 
     function displayQuestion() {
