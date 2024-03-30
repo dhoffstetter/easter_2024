@@ -41,3 +41,14 @@ body {
     border-radius: 10px;
     box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1);
 }
+
+#final-container{
+    background-color: rgba(246, 183, 225, 0.93);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1);
+    width: 80%; /* Adjust the width as needed */
+    max-width: 600px; /* Ensures the div does not exceed this width */
+    margin: 0 auto; /* Centers the div horizontally */
+    text-align: center;
+}
